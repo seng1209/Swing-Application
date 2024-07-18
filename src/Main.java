@@ -103,7 +103,7 @@ public class Main extends JFrame implements ActionListener {
                     "customer_first_name VARCHAR (30), " +
                     "customer_phone VARCHAR (16)) ";
 //          Create Table
-            stmt.execute(createTable);
+//          stmt.execute(createTable);
 
             String select = "SELECT * FROM Customer";
 
